@@ -12,5 +12,9 @@
         {
             return Math.PI * Math.Pow(radius, 2);
         }
+        public static double TriangleArea(double baseLength, double height)
+        {
+            return (baseLength * height)/2;
+        }
     }
 }
