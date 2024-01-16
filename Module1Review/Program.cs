@@ -16,5 +16,9 @@
         {
             return (baseLength * height)/2;
         }
+        public static double RectangleArea(double length, double width)
+        {
+            return length * width;
+        }
     }
 }
