@@ -7,5 +7,10 @@
             int num = 0;
             Console.WriteLine("Hello, World!");
         }
+
+        public static double CircleArea(double radius)
+        {
+            return Math.PI * Math.Pow(radius, 2);
+        }
     }
 }
