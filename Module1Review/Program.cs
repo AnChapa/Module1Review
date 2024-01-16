@@ -20,5 +20,9 @@
         {
             return length * width;
         }
+        public static double SquareArea(double side)
+        {
+            return side * side;
+        }
     }
 }
